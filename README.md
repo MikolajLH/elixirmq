@@ -13,6 +13,11 @@ https://www.rabbitmq.com/docs/download`
 1. `mix run lib/receive.exs`
 2. `mix run lib/send.exs`
 
+## Commands to remember
+`mix compile`  
+`mix run scratch.exs`  
+`iex -S mix`
+
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
