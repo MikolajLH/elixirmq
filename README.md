@@ -3,10 +3,15 @@
 **TODO: Add description**
 
 https://www.rabbitmq.com/tutorials/tutorial-one-elixir
-https://www.rabbitmq.com/docs/download
+https://www.rabbitmq.com/docs/download`
+
 
 ## Runing RabbitMQ with docker:
 `docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:4-management`
+
+## running scripts
+1. `mix run lib/receive.exs`
+2. `mix run lib/send.exs`
 
 ## Installation
 
